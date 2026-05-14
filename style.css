@@ -46,9 +46,9 @@ h1 {
   font-family: 'Cormorant Infant', serif;
   font-weight: 500;
   font-size: 1.65rem;
-  line-height: 1.75;
+  line-height: 1.3;
   color: var(--dark);
-  margin-bottom: 0.6rem;
+  margin-bottom: 1.6rem;
 }
 
 /* --- Buttons (nav links) --- */
