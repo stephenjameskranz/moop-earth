@@ -38,10 +38,13 @@ h1 {
   letter-spacing: 0.06em;
   color: var(--dark);
   margin-bottom: 1.75rem;
+  font-variant-ligatures: common-ligatures discretionary-ligatures;
+  font-feature-settings: "liga" 1, "dlig" 1, "calt" 1;
 }
 
 .body-text {
   font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
   font-size: 1.65rem;
   line-height: 1.75;
   color: var(--dark);
@@ -60,7 +63,7 @@ h1 {
 .btn {
   font-family: 'Ysabeau Infant', sans-serif;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 0.05em;
   display: block;
   width: 100%;
