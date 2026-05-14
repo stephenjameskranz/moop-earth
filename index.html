@@ -4,109 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Magical Office of Peace</title>
+  <link rel="stylesheet" href="style.css">
   <style>
-    *, *::before, *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background: #ffffff;
-      color: #000000;
-      font-family: Georgia, 'Times New Roman', serif;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 3rem 1.5rem;
-    }
-
-    .container {
-      max-width: 640px;
-      width: 100%;
-      text-align: center;
-    }
-
     .emblem {
       width: 120px;
       height: auto;
-      margin-bottom: 2.5rem;
-    }
-
-    h1 {
-      font-size: 1.5rem;
-      font-weight: normal;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
       margin-bottom: 2rem;
-    }
-
-    .intro {
-      font-size: 1rem;
-      line-height: 1.7;
-      color: #333;
-      margin-bottom: 0.75rem;
-    }
-
-    .mission {
-      font-size: 1rem;
-      line-height: 1.7;
-      color: #333;
-      margin-bottom: 3rem;
-    }
-
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.25rem 0;
-    }
-
-    nav a {
-      color: #000;
-      text-decoration: none;
-      font-size: 0.85rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      padding: 0.25rem 0.75rem;
-      border-right: 1px solid #ccc;
-    }
-
-    nav a:last-child {
-      border-right: none;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    nav a.dead {
-      color: #aaa;
-      cursor: default;
-    }
-
-    nav a.dead:hover {
-      text-decoration: none;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="column">
     <img src="assets/emblem.png" alt="Magical Office of Peace emblem" class="emblem">
 
     <h1>Magical Office of Peace</h1>
 
-    <p class="intro">My name is Stephen James Kranz. I'm just some dude.</p>
-    <p class="mission">The Magical Office of Peace is a container for my various creative projects that share a common goal of bringing peace to the world.</p>
+    <p class="body-text">My name is Stephen James Kranz. I'm just some dude.</p>
+    <p class="body-text">The Magical Office of Peace is a container for my various creative projects that share a common goal of bringing peace to the world.</p>
 
-    <nav>
-      <a href="https://edom.moop.earth">Each Day, One More</a>
-      <a href="https://slaps.moop.earth">SLAP art</a>
-      <a href="https://www.w4vp.com/" class="dead" aria-disabled="true">Walking for Vice President</a>
-      <a href="/pw">'''peacewhere'''</a>
-      <a href="/whats-up">howdy</a>
+    <nav class="btn-group">
+      <a href="https://edom.moop.earth" class="btn">Each Day, One More</a>
+      <a href="https://slaps.moop.earth" class="btn">SLAP art</a>
+      <a href="https://www.w4vp.com/" class="btn dead" aria-disabled="true">Walking for Vice President</a>
+      <a href="/pw" class="btn">'''peacewhere'''</a>
+      <a href="/whats-up" class="btn">howdy</a>
     </nav>
   </div>
 </body>
