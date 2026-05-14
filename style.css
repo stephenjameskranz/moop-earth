@@ -35,7 +35,7 @@ h1 {
   font-family: 'Cormorant Infant', serif;
   font-weight: 700;
   font-size: 5rem;
-  letter-spacing: 0.06em;
+  letter-spacing: 0;
   color: var(--dark);
   margin-bottom: 1.75rem;
   font-variant-ligatures: common-ligatures discretionary-ligatures;
